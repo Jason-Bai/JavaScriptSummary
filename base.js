@@ -9,7 +9,7 @@ Global._parent = window;
  * 模块化
  */
 Global.namespace = function (ns) {
-var arr = ns.split('.');
+	var arr = ns.split('.');
 	if(arr[0] == "Global") { // delete "Global"
 		arr.shift();
 	}
